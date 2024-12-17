@@ -2,10 +2,11 @@ echo "# responsive-portfolio-new" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/Taanveer22/responsive-portfolio-new.git
-git push -u origin master
+git branch -M main
+git remote add origin https://github.com/tanvir-wd22/responsive-portfolio-new.git
+git push -u origin main
 
-git remote add origin https://github.com/Taanveer22/responsive-portfolio-new.git
-git branch -M master
-git push -u origin master
+
+git remote add origin https://github.com/tanvir-wd22/responsive-portfolio-new.git
+git branch -M main
+git push -u origin main
