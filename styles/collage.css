@@ -1,7 +1,4 @@
-img{
-    height: 100%;
-    width: 100%;
-}
+
 .row{
     height: 400px;
     display: flex;
@@ -9,7 +6,11 @@ img{
     margin-bottom: 5px;
 }
 
-.row div{
+img{
+    height: 100%;
+    width: 100%;
+}
+.row > div{
     flex: 1;
 }
 
@@ -21,5 +22,17 @@ img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+}
+
+/* media query for mobile devices */
+@media screen and (max-width: 576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .square-collage{
+        grid-template-columns: 1fr;
+    }
 }
 
